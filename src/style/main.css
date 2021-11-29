@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+nav {
+	background-color: #fa824c;
+}
+
+.navbar-brand,
+h3 {
+	font-family: "Noto Sans", sans-serif !important;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: "Source Serif Pro", serif;
+	font-weight: bold;
+}
+
+h5,
+h6 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+a,
+li {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.btn-movie-details,
+.btn-search {
+	transition: all 0.5s ease;
+	color: #f17105;
+	border: 3px solid #f17105;
+	font-family: "Noto Sans", sans-serif;
+	background-color: transparent;
+	outline: none;
+	border-radius: 6px;
+}
+.btn-movie-details:hover,
+.btn-search:hover {
+	color: #fff;
+	background-color: #f17105;
+	font-weight: bold;
+}
